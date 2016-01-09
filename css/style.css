@@ -13,15 +13,23 @@ header {
 	width: 100%;
 }
 .brand {
+	width: 33.333333%;
 	position: relative;
 	float: left;
-	display: block;
+	margin-top: 10px;
 }
 
-.support {
-	height: 119.141px;
-	width: 50%;
-	margin: 0 auto;
-	position: relative;
+.brand h4 {
 	display: block;
+	line-height: 19.8px;
+}
+
+.callus {
+	height: 119.141px;
+	width: 304.188px;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	line-height: 119.141px;
+	text-align: center;
 }
