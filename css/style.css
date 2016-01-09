@@ -4,4 +4,24 @@ header,nav, #content, footer {
 
 body {
 	background-color: #EFEFEF;
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	height: 110px;
+	width: 100%;
+}
+.brand {
+	position: relative;
+	float: left;
+	display: block;
+}
+
+.support {
+	height: 119.141px;
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	display: block;
 }
