@@ -4,7 +4,7 @@ header,nav, #content, footer {
 
 body {
 	background-color: #EFEFEF;
-	width: 90%;
+	width: 85%;
 	margin: 0 auto;
 }
 
@@ -13,7 +13,7 @@ header {
 	width: 100%;
 }
 .brand {
-	width: 33.333333%;
+	width: 30%;
 	position: relative;
 	float: left;
 	margin-top: 10px;
@@ -26,10 +26,47 @@ header {
 
 .callus {
 	height: 119.141px;
-	width: 304.188px;
+	width: 70%;
 	position: relative;
-	margin: 0 auto;
+	float: right;
 	display: block;
 	line-height: 119.141px;
 	text-align: center;
+}
+
+#contact {
+	padding: 5px;
+}
+
+.contact-group {
+	width: 100%;
+}
+
+#contact-sub {
+	width: 60%;
+}
+
+.faqsupport {
+	float: right;
+	background-color: red;
+}
+
+#search{
+	width: 30%;
+}
+
+.search-sub{
+	position: relative;
+	display: table;
+	border-collapse: separate;
+}
+
+.search-sub>.form-search {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+#callnum {
+	margin-right: -15px;
+	margin-left: -15px;
 }
